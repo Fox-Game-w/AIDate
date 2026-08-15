@@ -23,9 +23,13 @@
 
 ## Success criteria
 
-- [ ] 2～3 页 PPT 可直接用于评审
-- [ ] 内容覆盖：问题、修改、节奏/解锁
-- [ ] Plan/Plan34.md 已提交推送
+- [x] 2～3 页 PPT 可直接用于评审
+- [x] 内容覆盖：问题、修改、节奏/解锁
+- [x] Plan/Plan34.md 已提交推送
+
+## Deliverable
+
+- `Doc/主线交互物与进度_产品简报.pptx`（3 页）
 
 ## Notes
 
