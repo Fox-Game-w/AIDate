@@ -1,32 +1,32 @@
 ﻿# Plan35
 
 - **Date**: 2026-08-15
-- **Time**: 14:44 (local)
-- **Project**: Client/Unity (知识整理)
-- **Continues**: none
-- **Session goal**: 列举《火焰纹章：圣魔之光石》主要 UI 界面及功能备注
+- **Time**: 14:53 (local)
+- **Project**: d:\noob\Client\Unity
+- **Continues**: Plan34.md
+- **Session goal**: 按 create-skill / ui-prefab-standards 规范，为「预制体转 PSD」写说明（项目 skill + Doc）
 
 ## Scope
 
-- In scope:
-  - 归纳 FE8 主要玩家可见 UI/菜单界面
-  - 为每个界面备注核心功能
-- Out of scope:
-  - Unity 工程内实现
-  - 具体像素布局/美术规范
+- In scope: `.cursor/skills/ui-prefab-to-psd/SKILL.md`；必要时 `Doc/` 人读说明；交叉引用 ui-prefab-standards
+- Out of scope: 不改 Editor 工具代码
 
 ## Steps
 
-1. 对照攻略与菜单资料整理界面清单
-2. 按流程阶段（标题/地图/出击准备/战斗/系统）分类并备注功能
-3. 给出可复刻时的界面数量结论
+1. 对照 `UIPrefabToPsdShell` / CorrectFlow / UIPsdPaths 归纳流程
+2. 写项目 skill
+3. 写 Doc 说明.md（给人读）
+4. 更新 ui-prefab-standards 交叉引用
+5. git sync Plan
 
 ## Success criteria
 
-- [ ] 输出分类完整的 UI 清单与功能备注
-- [ ] 写入 Plan 并 git push
+- [x] skill 可被「预制体转PSD / Export Prefab PSD」触发
+- [x] 说明覆盖：导出菜单、目录、图层约定、回流、与 prefab 规范关系
+- [x] Plan35 已 push
 
-## Notes
+## Deliverable
 
-- 项目内未检索到「圣魔」相关已有 UI 资源；本次为原作知识整理
-- 承接此前「复刻职业系统」相关讨论方向
+- `.cursor/skills/ui-prefab-to-psd/SKILL.md`
+- `Doc/UI预制体转PSD说明.md`
+
