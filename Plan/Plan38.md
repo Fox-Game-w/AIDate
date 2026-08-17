@@ -1,23 +1,22 @@
 ﻿# Plan38
 
-- **Date**: 2026-08-15
-- **Time**: 16:03 (local)
-- **Project**: Client/Unity (美术提示词)
+- **Date**: 2026-08-17
+- **Time**: 09:18 (local)
+- **Project**: d:\noob\Client\Unity
 - **Continues**: Plan37.md
-- **Session goal**: 重写关键词，突出各界面功能要点，风格统一但文案不雷同
+- **Session goal**: 把缺口分析改写成可直接给美术的交付清单
 
 ## Scope
 
-- In scope: 功能要点前置；短统一风格尾缀；覆盖 Excel
-- Out of scope: 出图
+- In scope: 纯美术清单（名称/规格/数量/优先级）
+- Out of scope: 程序对照长文
 
 ## Steps
 
-1. 按源表功能备注提炼每屏布局/信息要素关键词
-2. 尾部加短统一风格句
-3. 覆盖桌面 Excel 并抽检差异
+1. 提炼需制作项
+2. 写成美术清单文档
+3. Plan sync
 
 ## Success criteria
 
-- [ ] 63 条关键词功能段互不相同
-- [ ] 风格尾缀一致且简短
+- [ ] Doc 下有可直接发美术的清单
