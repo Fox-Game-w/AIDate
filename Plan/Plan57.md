@@ -25,3 +25,8 @@
 ## Notes
 
 - 承接此前圣魔 UI/关键词整理
+
+## Result
+- Excel: Desktop/FE8圣魔之光石_全道具清单.xlsx (ID 0-187, 188 entries)
+- Push may fail if GitHub blocked
+
