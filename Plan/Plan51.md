@@ -1,26 +1,26 @@
 # Plan51
 
 - **Date**: 2026-08-18
-- **Time**: 11:41 (local)
+- **Time**: 15:35 (local)
 - **Project**: d:\noob\Client\Unity
 - **Continues**: Plan50.md
-- **Session goal**: 把打满一关所需地形块折算成用时
+- **Session goal**: 将「每关 100 进度对应多少波怪物」查询结果导出为 Excel
 
 ## Scope
 
-- In scope: 移速 + 清怪节拍估算
-- Out of scope: 改数值、实测战斗时长
+- In scope: 导出 Excel，含口径、波次估算、第 1 关分段
+- Out of scope: 改游戏配置
 
 ## Steps
 
-1. 取主角移速与块尺寸
-2. 用「100 灵魂 ≈ 3 分钟」策划锚点对齐
-3. 输出每关用时
+1. 按 Plan50 结论生成 xlsx 到 Doc/
+2. git sync Plan
 
 ## Success criteria
 
-- [x] 给出纯走时与含清怪总时
+- [x] 产出可打开的 Excel
 
 ## Notes
 
-- Role MoveSpeed=5 m/s；chunk=16m；纯走 3.2s/块；含战约 8s/块
+- 产出：`Doc/主线100进度对应波次.xlsx`
+- 口径：炮灰 1 / 普通 2 / 精英 6；纯 6 炮灰/波 ≈ 17 波；模拟战斗组约 18 波
