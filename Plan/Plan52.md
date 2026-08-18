@@ -1,27 +1,27 @@
 # Plan52
 
 - **Date**: 2026-08-18
-- **Time**: 11:51 (local)
+- **Time**: 16:05 (local)
 - **Project**: d:\noob\Client\Unity
 - **Continues**: Plan51.md
-- **Session goal**: 按现有清怪速度重规划 1–14 章地格/用时，并更新 1–30 天进度 Excel
+- **Session goal**: 估算满 100 进度需要行走多少格子，并补充到 Excel
 
 ## Scope
 
-- In scope: 第1–2章各20分钟、第3章25、第4章30、第5章55；6–14 沿用原章节进度总量折地格；重算到达关
-- Out of scope: 改 Copy_Copy 配置
+- In scope: 查区块/格子尺寸与刷怪距离，换算行走格子数
+- Out of scope: 改配置、改刷怪逻辑
 
 ## Steps
 
-1. 用 100 灵魂=3 分钟、8 秒/地格 反推灵魂与地格
-2. 1–5 章按指定用时；6–14 按既有章节总量
-3. 写 Excel 并 git sync Plan
+1. 查 chunkSize、tileScale、刷怪距离、每块刷怪组数
+2. 用 17～18 波战斗组换算行走格子
+3. 更新 Excel 并 git sync Plan
 
 ## Success criteria
 
-- [x] 1–14 章有地格与用时；1–30 天到达关按新累计灵魂重算
+- [x] 给出 100 进度对应行走格子数及依据
 
 ## Notes
 
-- v3 被占用，已写入 `Doc/主线进度_1-30天_非付费付费.xlsx` 与 `Doc/主线进度_1-30天_非付费付费_v3_清怪速度.xlsx`
-- 第1、2章各20分钟；1–5章合计灵魂 5000
+- 产出：`Doc/主线100进度对应波次_含行走格子.xlsx`
+- 主口径 32～48 格（约 2～3 个区块）；上限 270 格（15 米逐波）
