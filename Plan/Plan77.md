@@ -20,8 +20,9 @@
 
 ## Success criteria
 
-- [ ] 列出 AreaKey 关联的配置/模块/用途
+- [x] 列出 AreaKey 关联的配置/模块/用途
 
 ## Notes
 
 - 问答向梳理
+
