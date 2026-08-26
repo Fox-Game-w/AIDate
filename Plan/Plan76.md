@@ -20,7 +20,7 @@
 1. [x] 撰写异形格子 + 点击旋转规则 md
 2. [x] 撰写宝箱取物 md
 3. [x] 用导出脚本生成两份 docx 到 Doc/ 与 d:\
-4. [ ] Git sync Plan76
+4. [x] Git sync Plan76（本地 commit 成功；push 因 github.com:443 连通失败，待重试）
 
 ## Success criteria
 
@@ -31,4 +31,7 @@
 ## Notes
 
 - MD 源：`Doc/主线搜打撤异形格子与旋转规则.md`、`Doc/主线搜打撤宝箱取物设计文档.md`
-- 导出脚本对齐 `export_main_extract_interact_doc.py`
+- 导出脚本：`Doc/Tools/export_alien_grid_rotate_doc.py`、`Doc/Tools/export_chest_loot_doc.py`
+- Word 输出：
+  - `Doc/主线搜打撤异形格子与旋转规则.docx` / `d:\主线搜打撤异形格子与旋转规则.docx`
+  - `Doc/主线搜打撤宝箱取物设计文档.docx` / `d:\主线搜打撤宝箱取物设计文档.docx`
