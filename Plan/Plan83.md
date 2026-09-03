@@ -24,12 +24,13 @@
 
 ## Success criteria
 
-- [ ] 可导入现有 TowerFloor.xlsx 并按 TowerType 分页签
-- [ ] 调整行数时自动维护 Id/Next/Num 与共享列
-- [ ] 可新增页签并导出合并表
-- [ ] 产出可运行的 exe
+- [x] 可导入现有 TowerFloor.xlsx 并按 TowerType 分页签
+- [x] 调整行数时自动维护 Id/Next/Num 与共享列
+- [x] 可新增页签并导出合并表
+- [x] 产出可运行的 exe
 
 ## Notes
 
 - 共享列：FightType, ElementTag, SpecialRewardShow, MonsterNum, CopyPlotArray, MapSize, ExportNavmesh, LimitTime, MonsterIdArr, WasteReward, CommonReward, EliteReward, BossReward, LimitMonIdReward, GoalType, CopyObjectList, SkillList
 - NextFloorId = 本行 TowerFloorId+1；页签末行 NextFloorId 为空
+- 产出路径：`d:\noob_excel\Tools\TowerFloorEditor\dist\TowerFloorEditor.exe`
