@@ -23,10 +23,11 @@
 
 ## Success criteria
 
-- [ ] 导入后共享列、Id 链与源表一致（含公式）
-- [ ] 仅「同步/重算/改行数」才改写规则字段
-- [ ] 新 exe 已生成
+- [x] 导入后共享列、Id 链与源表一致（含公式）
+- [x] 仅「同步/重算/改行数」才改写规则字段
+- [x] 新 exe 已生成
 
 ## Notes
 
 - d:\noob_excel\Tools\TowerFloorEditor\
+- Plan 本地已 commit；push 网络失败需稍后重试
