@@ -19,9 +19,11 @@
 
 ## Success criteria
 
-- [ ] 明确关卡列表从何处读取
-- [ ] Plan 已提交
+- [x] 明确关卡列表从何处读取
+- [x] Plan 已提交（push 若失败需稍后重试）
 
 ## Notes
 
-- 入口：Assets/Editor/LevelEditor/LevelEditor/LevelEditorWindow.cs
+- 入口：Assets/Editor/LevelEditor/LevelEditor/LevelEditorWindow.cs → LoadConfig()
+- 主来源：CopyPlot_CopyPlot.json 的 Id
+- 补充：各玩法表 CopyPlotArray 中解析出的地块 Id（且在 ModelResoure 中有资源）
