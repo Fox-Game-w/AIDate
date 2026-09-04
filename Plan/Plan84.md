@@ -23,10 +23,11 @@
 
 ## Success criteria
 
-- [ ] 启动不强制加载固定路径
-- [ ] 可通过对话框任选 xlsx 导入
-- [ ] 新 exe 已生成
+- [x] 启动不强制加载固定路径
+- [x] 可通过对话框任选 xlsx 导入
+- [x] 新 exe 已生成
 
 ## Notes
 
 - 路径：d:\noob_excel\Tools\TowerFloorEditor\
+- 本地已 commit；push 若失败需稍后重试
