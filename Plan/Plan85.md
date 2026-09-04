@@ -22,10 +22,11 @@
 
 ## Success criteria
 
-- [ ] 页签表头可见中文备注
-- [ ] 导出结构不变
-- [ ] 新 exe 已生成
+- [x] 页签表头可见中文备注
+- [x] 导出结构不变
+- [x] 新 exe 已生成
 
 ## Notes
 
 - 路径：d:\noob_excel\Tools\TowerFloorEditor\
+- Plan 本地已 commit；push 网络失败需稍后重试
