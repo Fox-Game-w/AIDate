@@ -24,12 +24,13 @@
 
 ## Success criteria
 
-- [ ] 可选导入两表
-- [ ] 可编辑 Group 并维护 CopyObjectRate
-- [ ] 导出保留原格式
-- [ ] 产出 exe
+- [x] 可选导入两表
+- [x] 可编辑 Group 并维护 CopyObjectRate
+- [x] 导出保留原格式
+- [x] 产出 exe
 
 ## Notes
 
 - Type 1-15 按用户列表
 - 参考 TowerFloorEditor 的导入导出模式
+- 产出：d:\noob_excel\Tools\CopyObjectGroupEditor\CopyObjectGroupEditor.exe
