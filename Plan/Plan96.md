@@ -19,9 +19,9 @@
 
 ## Success criteria
 
-- [ ] 点击对象可插入 Rate
-- [ ] Rate 可见备注
-- [ ] 新 exe 已生成
+- [x] 点击对象可插入 Rate
+- [x] Rate 可见备注
+- [x] 新 exe 已生成
 
 ## Notes
 
