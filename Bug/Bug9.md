@@ -4,7 +4,7 @@
 - **Time**: 17:06
 - **Project**: noob/Client/Unity
 - **Related plan**: Plan102.md
-- **Status**: open
+- **Status**: fixed
 
 ## Summary
 
@@ -25,12 +25,14 @@
 
 ## Root cause
 
-Y=0 薄截面采不到高于地面的岩石体积，只碰到地面边缘等碎片。
+Y=0 薄截面采不到高于地面的岩石体积；且曾默认白=模型，与道路约定相反。
 
 ## Fix
 
-待改为 XZ 柱体命中任意网格（俯视占位）并默认黑=占用。
+- 默认模式改为「俯视占位」（XZ 投影/柱体命中任意三角）
+- 默认黑=占用、白=空
+- 默认排除大面积扁平地面 Mesh，只保留岩石等立体物
 
 ## Follow-up
 
-重新生成该 prefab 的 `_e.png` 验证。
+Unity 中对该 Prefab 重新点「生成占用图」验证红圈区域是否实心黑。

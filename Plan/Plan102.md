@@ -13,17 +13,16 @@
 
 ## Steps
 
-1. 分析 prefab / 现 `_e.png`（约 33 黑，边框状）
-2. 改为俯视剪影 + 排除扁平地面；默认黑=占用
-3. 更新 Bug 并同步
+1. 分析 prefab / 现 `_e.png`（33 黑边、与岩石不符）
+2. 默认改为俯视剪影 + 排除扁平地面 + 黑=占用
+3. 更新 Bug 并同步；请用户在 Unity 重导验证
 
 ## Success criteria
 
-- [x] 默认俯视占位，黑=占用、白=空
-- [x] 可排除扁平地面，保留岩石立体占位
-- [ ] 需在 Unity 对 Copy_F_road_06_04 重新生成验证
+- [x] 工具改为俯视占位，默认黑占用、可排除地面
+- [ ] 用户对 Copy_F_road_06_04 重导后岩石区为实心黑
 
 ## Notes
 
-- 入口：Tools/关卡工具/Prefab 占用图生成(_e)
-- 该 Prefab 含地面+岩石；Y=0 薄截面采不到岩石体积
+- 文件：Assets/Editor/ToolEditor/PrefabOccupancyMapWindow.cs
+- 旧 Y=0 薄截面采不到高出地面的岩石，导致大片白
