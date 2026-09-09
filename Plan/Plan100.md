@@ -19,9 +19,11 @@
 
 ## Success criteria
 
-- [ ] 占用依据 Y=0 截面
-- [ ] 仍输出 prefab名_e.png
+- [x] 占用依据 Y=0 截面
+- [x] 仍输出 prefab名_e.png
 
 ## Notes
 
 - 边界仍为主体 Prefab XZ 包围盒
+- 可调「截面半厚度」；默认 0.05
+- 入口：Tools/关卡工具/Prefab 占用图生成(_e)
