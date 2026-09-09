@@ -12,13 +12,12 @@
 
 ## Fix (contour-v6)
 
-- `using Unity.Collections` + `UnityEngine.Rendering`
-- `GetVertices(NativeArray<Vector3>)`
-- 按 `indexFormat` 分别用 `NativeArray<ushort>` / `NativeArray<int>` 取索引并 `Dispose`
-- 版本号改为 `contour-v6`，便于确认是否已热重载
+- 去掉 `Mesh.AcquireReadOnlyMeshData` / NativeArray（本机会 CS1503，编译失败→一直跑旧 contour-v3）
+- `isReadable=false` 时用 `ModelImporter.isReadable=true` + `SaveAndReimport` 再读三角
+- 版本号 `contour-v6`；若 Unity 未自动 Refresh，需手动 Ctrl+R
 
 ## Verify
 
-1. Console 无 PrefabOccupancyMapWindow CS1503
-2. 关闭再开「Tools/关卡工具/Prefab 占用图生成(_e)」标题为 contour-v6
-3. 对 Copy_F_road_03_01 / 03_02 生成，状态里 Mountain/Stone 的 polys>0
+1. 切到 Unity → Assets/Refresh（或 Ctrl+R），Console 无 PrefabOccupancyMapWindow CS1503
+2. 关闭再开工具窗口，标题为 contour-v6（不是 v3）
+3. 对 Copy_F_road_03_01 / 03_02 生成，Mountain/Stone 有黑区
