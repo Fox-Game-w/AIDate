@@ -1,31 +1,14 @@
 ﻿# Plan116
 
 - **Date**: 2026-09-10
-- **Time**: 18:10
-- **Project**: noob/Client/Unity
-- **Continues**: none
-- **Session goal**: 查清击杀怪物涨魂由哪个配置表控制
+- **Time**: 19:16 / 20:40
+- **Project**: D:\Tools + noob_excel
+- **Session goal**: CopyLevel 进度编辑 exe
 
-## Scope
+## Done
 
-- In scope:
-  - 定位主线/关卡魂进度相关配置与击杀结算链路
-- Out of scope:
-  - 修改配置或逻辑
-
-## Steps
-
-1. 搜索魂/Soul/KillMonster 相关配置与代码
-2. 确认 Copy / CopyLevel / Monster 等表字段职责
-3. 回答用户并同步 Plan 日志
-
-## Success criteria
-
-- [x] 明确涨魂相关表与字段
-- [x] 说明客户端无单怪涨魂字段、数值由服务端结算返回
-
-## Notes
-
-- 魂对应 WellkonwItem.SOUL_ID=3（空间石碑）
-- Copy_Copy.SoulAmount：关卡灵魂总量
-- CopyLevel_CopyLevel.LevelSoul：单个关卡/子阶段魂数量
+- 新建 `D:\Tools\CopyLevelEditor\`
+- 导入 CopyLevel / CopyObjectGroup（第1类型、第2格式、第3备注、第4数据）
+- 解析/编辑 `CopyObjectGroupId`：`进度,群组Id|…`
+- 群组按 Type 显示名称 + 备注；可插入/修改 LevelID
+- 已打包 `CopyLevelEditor.exe`
