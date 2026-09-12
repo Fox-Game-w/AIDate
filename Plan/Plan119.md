@@ -24,11 +24,17 @@
 
 ## Success criteria
 
-- [ ] exe 可粘贴/加载 JSON 并画出怪/交
-- [ ] 同格可同时标记怪和交
+- [x] exe 可粘贴/加载 JSON 并画出怪/交
+- [x] 同格可同时标记怪和交
 
 ## Notes
 
 - copyArea key 为 \"x:y\"
 - CopyGroupTypeMonster -> monsterIds
 - CopyGroupTypeComponent -> component.objectId
+
+
+## Result
+
+- Path: D:\Tools\MainCopyMapViewer\MainCopyMapViewer.exe
+
