@@ -41,3 +41,4 @@
 
 - 已实现 BatchGenerateDialog + on_batch_generate_levels
 - README 已补充规则说明
+- 2026-09-16 10:00 已重打包 CopyLevelEditor.exe（此前用户仍在用 9/11 旧 exe，看不到按钮）
