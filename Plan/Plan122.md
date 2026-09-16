@@ -26,12 +26,18 @@
 
 ## Success criteria
 
-- [ ] 输入章节数与每章关卡数可生成/补齐主线关卡
-- [ ] NextLevelID、ChapterID、LevelType 符合规则
-- [ ] 从模板复制其它字段，插入主线段末尾
+- [x] 输入章节数与每章关卡数可生成/补齐主线关卡
+- [x] NextLevelID、ChapterID、LevelType 符合规则
+- [x] 从模板复制其它字段，插入主线段并按 LevelID 重排
 
 ## Notes
 
 - LevelID 例：600000101 = 类型6 + 章节000001 + 关卡01
-- ChapterID = NextLevelID 前7位（用户说明）
-- 当前约到 41 章
+- ChapterID 按现表为 LevelID 前7位（非 NextLevelID 前7位；跨章时 Next 前7位会变）
+- 当前约到 41 章 × 最多 30 关
+- 工具栏按钮「批量生成关卡」；支持主线6/秘境9
+
+## Result
+
+- 已实现 BatchGenerateDialog + on_batch_generate_levels
+- README 已补充规则说明
