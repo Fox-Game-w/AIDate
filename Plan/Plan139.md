@@ -23,9 +23,12 @@
 
 ## Success criteria
 
-- [ ] UI 可一键根据 MonsterGroup 生成 PreMonsterGroup
-- [ ] 保留已有 PreMonsterGroupId，仅追加缺失组
+- [x] UI 可一键根据 MonsterGroup 生成 PreMonsterGroup
+- [x] 保留已有 PreMonsterGroupId：已存在则更新 Rate，否则追加；支持 ID 段过滤
+- [x] exe 已重新打包
 
 ## Notes
 
 - PreMonsterGroupId = 前5位；权重固定 1000
+- 按钮：「同步 PreMonsterGroup」
+- 试跑：当前 MonsterGroup 524 唯一 ID → 41 组
