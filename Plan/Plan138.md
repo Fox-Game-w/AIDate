@@ -24,10 +24,11 @@
 
 ## Success criteria
 
-- [ ] PreMonsterGroup 含各组 PreMonsterGroupId
-- [ ] Rate 为组内唯一 MonsterGroupId 且权重 1000
+- [x] 已生成分组数据（1122 组，Rate 权重均为 1000）
+- [ ] 覆盖写入原 PreMonsterGroup.xlsx（当前被 Excel 占用）
 
 ## Notes
 
-- 用户描述：PreMonsterGroupId=前5位；Rate=组内 MonsterGroupId，各 1000
-- 现有 Rate 格式样例：`id,weight|id,weight`
+- Rate 格式按现表：`MonsterGroupId,1000|MonsterGroupId,1000`
+- 已保留原 134 行，追加 1122 行到 `PreMonsterGroup_filled.xlsx`
+- 原文件 Permission denied，需关闭 Excel 后覆盖
